@@ -1,0 +1,8 @@
+name: Rancher Policy Manager
+description: |
+  Rancher Policy Manager.
+version: v0.0.1
+category: Networking
+labels:
+  io.rancher.certified: rancher
+  io.rancher.orchestration.supported: 'cattle,mesos'
