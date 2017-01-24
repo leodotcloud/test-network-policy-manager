@@ -4,7 +4,7 @@ services:
     privileged: true
     network_mode: host
     pid: host
-    image: leodotcloud/policy-manager:dev
+    image: leodotcloud/policy-manager:dev1
     labels:
       io.rancher.scheduler.global: 'true'
     logging:
