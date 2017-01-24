@@ -3,6 +3,7 @@ services:
   policy-manager:
     privileged: true
     network_mode: host
+    command: policy-manager --debug
     pid: host
     image: leodotcloud/policy-manager:dev1
     labels:
