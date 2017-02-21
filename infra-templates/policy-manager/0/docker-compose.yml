@@ -5,7 +5,7 @@ services:
     network_mode: host
     command: policy-manager --debug
     pid: host
-    image: leodotcloud/policy-manager:dev2
+    image: leodotcloud/policy-manager:dev
     labels:
       io.rancher.scheduler.global: 'true'
     logging:
